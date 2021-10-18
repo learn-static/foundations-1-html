@@ -67,5 +67,33 @@ Remember to refresh your browser as you edit the file to view the results!
 - Headings - help denote titles of sections and subsections of a page. They run from `<h1>` through `<h6>`, with hierarchical importance something like what you might see in a traditional table of contents.
 - Paragraphs - `<p>` denote blocks of text to be displayed.
 - Inline elements - try adding `<strong>bold</strong>` and `<em>italic</em>` to text inside of your paragraphs.
-- Hyperlink - links are central to the web, try adding on following the pattern `<a href="https://github.com/learn-static">About page</a>`. Notice that the `a` tag uses the attribute `href` with the value being the URL you want to link to. Since the `href` is inside the pointing brackets, it isn't displayed on the page. When you click the hyperlinked text, the browser will navigate to the the `href`.
+- Hyperlink - links are central to the web, try adding on following the pattern `<a href="https://example.com">hyperlink text</a>`. Notice that the `a` tag uses the attribute `href` with the value being the URL you want to link to. Since the `href` is inside the pointing brackets, it isn't displayed on the page. When you click the hyperlinked text, the browser will navigate to the the `href`.
 - Image - try adding an image tag `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">`. Notice the `img` tag makes uses of two attributes, `src` (i.e. the link to the image file) and `alt` (i.e. text describing the image content to display if the image can't be).
+
+Your final file might look like:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+
+        <h1>Hello World!</h1>
+        <p>This website is great.</p>
+
+        <h2>Heading Two</h2>
+        <p>Another interesting bit of content with some <strong>bold</strong> and <em>italic</em> text.</p>
+        <p>Maybe you would like to visit <a href="https://github.com/learn-static">Learn-STATIC</a>?</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">
+
+    </body>
+</html>
+```
+
+## More
+
+This example walked through basic HTML elements. 
+However, they are currently unstyled!
+Next step is to control the presentation using CSS.
