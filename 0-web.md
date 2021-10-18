@@ -59,6 +59,8 @@ Most websites have a special page that displays when you get a 404.
 To start understanding and developing websites you honestly don't need to know much about how the web works.
 Familiarize your self URLs, learn a bit about HTML, and you are already understanding the fundamentals of the web!
 
+Learn about [HTML in the next lesson](1-html.md).
+
 For more background about how the web works:
 
 - [How Does the Internet Work?](https://youtu.be/i5oe63pOhLI) (idealistic Canadian video explains that *The internet is network of networks that connects devices.*)
