@@ -1,4 +1,4 @@
-# Example HTML Documents
+# Example HTML Document
 
 To understand the basic elements and concepts of HTML, let's review a very basic example HTML document. 
 
@@ -95,5 +95,5 @@ Your final file might look like:
 ## More
 
 This example walked through basic HTML elements. 
-However, they are currently unstyled!
-Next step is to control the presentation using CSS.
+The next steps are to add CSS to control the presentation style and JS to provide interactive functionality. 
+Check the [complete web page example](3-complete.md) in the next lesson to see how it comes together.
