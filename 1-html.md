@@ -32,7 +32,7 @@ For example, in HTML the heading above that says "For Example" looks like:
 `<h3>For Example</h3>`
 
 The `<h3>` tag encloses the text "For Example", marking it semantically as a "third level heading" in the document.
-The web browser displays "For Example" differently than the main paragraph text and the `h1` header "Hypertext Markup Language" at the top of the page, to convey it's semantic meaning to readers.
+The web browser interprets that markup and displays "For Example" differently than the main paragraph text and the `h1` header "Hypertext Markup Language" at the top of the page, to convey it's semantic meaning to readers.
 
 Learn more by following the [Examples in the next lesson]("2-example.md")!
 

@@ -1,12 +1,14 @@
 # foundations-html
 
-**Lesson content**: This set of lessons provides an overview of the fundamental building blocks of websites, HTML. It is broken into several parts that can be reviewed separately:
-
-- [The Web](0-web.md)
-- [Introduction to HTML](1-html.md)
-- [Example HTML](2-example.md)
+**Lesson content**: This set of lessons provides an overview of the fundamental building blocks of websites, HTML. 
+It is broken into several parts that can be reviewed separately.
 
 **Description**: 
+
+- [The Web](0-web.md) - introduction to the basics of websites and URLs.
+- [Introduction to HTML](1-html.md) - introduction to HTML elements.
+- [Example HTML](2-example.md) - a walk through of basic HTML structure to demonstrate how elements are used to create a web page.
+- [Complete Web Page Example](3-complete.md) - a walk through of an example web page using HTML, CSS, and JS.
 
 **Time to complete**: 
 

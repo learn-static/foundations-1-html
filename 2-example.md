@@ -23,6 +23,9 @@ If you want to practice, open a text editor on your computer, paste in this basi
 In the folder where you saved it, double click on the file to open it in your web browser. 
 You should see our super basic page rendered!
 
+Notice how the "pointy bracket" markup is not visually displayed. 
+The semantic annotations represented by the HTML markup is translated into distinctive display styles by your browser.
+
 Try editing the content inside the elements `<title>`, `<h1>`, and  `<p>` to see if you can decipher how they correspond to what is displayed.
 Refresh the file displayed in your browser to see the effects.
 
@@ -31,7 +34,7 @@ Below are some more details about the parts of this example.
 ### Indentation and White Space
 
 Notice how each nested element in the example above is indented from the level of it's parent element.
-Indentation is a *convention* to make HTML code easier to read. 
+Indentation is a *convention* to make HTML code easier to read for humans. 
 It can help you quickly identify how the elements are nested. 
 
 However, web browsers do not care! 
@@ -52,11 +55,11 @@ Inside the root there is generally two main elements that contain the rest of th
 
 First comes the `<head>` element. 
 This section is *not directly displayed* on the web page, but contains information about the page. 
-Tags in the head often represent metadata, links to style sheets, or other technical markup that needs to be communicated to the browser.
+Tags nested inside the head often represent metadata, links to style sheets, or other technical markup that needs to be communicated to the browser.
 For example, the `<title>` tag will display in the browser's title bar / tab title (but not on the page itself).
 
 Second comes the `<body>` element. 
-The elements inside the body are displayed, representing the content of the web page.
+The elements nested inside the body are displayed, representing the content of the web page.
 Our basic example has a `<h1>` (i.e. a heading one) and `<p>` (i.e. a paragraph).
 
 ### Content Elements
@@ -67,8 +70,8 @@ Remember to refresh your browser as you edit the file to view the results!
 - Headings - help denote titles of sections and subsections of a page. They run from `<h1>` through `<h6>`, with hierarchical importance something like what you might see in a traditional table of contents.
 - Paragraphs - `<p>` denote blocks of text to be displayed.
 - Inline elements - try adding `<strong>bold</strong>` and `<em>italic</em>` to text inside of your paragraphs.
-- Hyperlink - links are central to the web, try adding on following the pattern `<a href="https://example.com">hyperlink text</a>`. Notice that the `a` tag uses the attribute `href` with the value being the URL you want to link to. Since the `href` is inside the pointing brackets, it isn't displayed on the page. When you click the hyperlinked text, the browser will navigate to the the `href`.
-- Image - try adding an image tag `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">`. Notice the `img` tag makes uses of two attributes, `src` (i.e. the link to the image file) and `alt` (i.e. text describing the image content to display if the image can't be).
+- Hyperlink - links are central to the web, try adding on following the pattern `<a href="https://example.com">hyperlink text</a>`. Notice that the `a` tag uses the attribute `href` with the value being the URL you want to link to. Since the `href` is inside the pointy brackets, it isn't displayed on the page. When you click the hyperlinked text, the browser will navigate to the value of `href`.
+- Image - try adding an image tag `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">`. Notice the `img` tag makes uses of two attributes, `src` (i.e. the link to the image file) and `alt` (i.e. text describing the image content to display if the image can't be). Notice, we *do not* need to have the image on our computer to display it in our example page. The web and HTML allow interlinking content from different sources pulled together as a single document.
 
 Your final file might look like:
 
