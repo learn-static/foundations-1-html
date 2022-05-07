@@ -23,6 +23,8 @@ If you want to practice, open a text editor on your computer, paste in this basi
 In the folder where you saved it, double click on the file to open it in your web browser. 
 You should see our super basic page rendered!
 
+(Alternatively, you can practice in the [WebMaker App](https://webmaker.app/app/) which has boxes for HTML, CSS, and JS that generate a preview in real-time as you edit)
+
 Notice how the "pointy bracket" markup is not visually displayed. 
 The semantic annotations represented by the HTML markup is translated into distinctive display styles by your browser.
 
@@ -55,6 +57,7 @@ Inside the root there is generally two main elements that contain the rest of th
 
 First comes the `<head>` element. 
 This section is *not directly displayed* on the web page, but contains information about the page. 
+
 Tags nested inside the head often represent metadata, links to style sheets, or other technical markup that needs to be communicated to the browser.
 For example, the `<title>` tag will display in the browser's title bar / tab title (but not on the page itself).
 

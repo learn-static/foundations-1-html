@@ -3,7 +3,7 @@
 HTML is a ["markup language"](https://en.wikipedia.org/wiki/Markup_language) originally designed to describe structured documents for the web.
 
 If you look at the pages of a book or the print out of your term paper, you will see a set of common conventions that we use to communicate structure and meaning.
-Semantic document features such as headings, paragraphs, lists, or italics are represented on the page by distinctive styling such as font size, boldness, or font decoration.
+Document features such as headings, paragraphs, lists, or italics are represented on the page by distinctive styling such as font size, boldness, or font decoration.
 
 HTML provides a way to formally mark those types of document elements, allowing you to record the semantic structure of the text.
 This markup can then be translated by the web browser into visual styles for easy reading, or efficiently navigated by screen readers for non-visual users.
@@ -32,7 +32,7 @@ For example, in HTML the heading above that says "For Example" looks like:
 `<h3>For Example</h3>`
 
 The `<h3>` tag encloses the text "For Example", marking it semantically as a "third level heading" in the document.
-The web browser interprets that markup and displays "For Example" differently than the main paragraph text and the `h1` header "Hypertext Markup Language" at the top of the page, to convey it's semantic meaning to readers.
+The web browser interprets that markup and displays "For Example" differently than the main paragraph text and the `h1` header "Hypertext Markup Language" at the top of this page, to convey it's semantic meaning to readers.
 
 Learn more by following the [Examples in the next lesson](2-example.md)!
 
