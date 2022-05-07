@@ -1,6 +1,8 @@
 # Example HTML Document
 
-To understand the basic elements and concepts of HTML, let's review a very basic example HTML document. 
+> This section provides a walk through of basic HTML structure to demonstrate how elements are used to create a web page.
+
+To understand the basic elements and concepts of HTML, let's review a very basic example HTML document and practice adding and modifying elements. 
 
 ## Basic Structure 
 
@@ -74,7 +76,7 @@ Remember to refresh your browser as you edit the file to view the results!
 - Paragraphs - `<p>` denote blocks of text to be displayed.
 - Inline elements - try adding `<strong>bold</strong>` and `<em>italic</em>` to text inside of your paragraphs.
 - Hyperlink - links are central to the web, try adding on following the pattern `<a href="https://example.com">hyperlink text</a>`. Notice that the `a` tag uses the attribute `href` with the value being the URL you want to link to. Since the `href` is inside the pointy brackets, it isn't displayed on the page. When you click the hyperlinked text, the browser will navigate to the value of `href`.
-- Image - try adding an image tag `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">`. Notice the `img` tag makes uses of two attributes, `src` (i.e. the link to the image file) and `alt` (i.e. text describing the image content to display if the image can't be). Notice, we *do not* need to have the image on our computer to display it in our example page. The web and HTML allow interlinking content from different sources pulled together as a single document.
+- Image - try adding an image tag `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">`. Notice the `img` tag makes uses of two attributes, `src` (i.e. the link to the image file) and `alt` (i.e. text describing the image content to display if the image can't be or if a screen reader is describing the page to a visually impaired user). Notice, we *do not* need to have the image on our computer to display it in our example page. The web and HTML allow interlinking content from different sources pulled together as a single document.
 
 Your final file might look like:
 

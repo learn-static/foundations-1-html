@@ -1,5 +1,7 @@
 # Hypertext Markup Language
 
+> This section introduces the concepts behind the markup language HTML.
+
 HTML is a ["markup language"](https://en.wikipedia.org/wiki/Markup_language) originally designed to describe structured documents for the web.
 
 If you look at the pages of a book or the print out of your term paper, you will see a set of common conventions that we use to communicate structure and meaning.
@@ -34,13 +36,13 @@ For example, in HTML the heading above that says "For Example" looks like:
 The `<h3>` tag encloses the text "For Example", marking it semantically as a "third level heading" in the document.
 The web browser interprets that markup and displays "For Example" differently than the main paragraph text and the `h1` header "Hypertext Markup Language" at the top of this page, to convey it's semantic meaning to readers.
 
-Learn more by following the [Examples in the next lesson](2-example.md)!
-
-## More
+## Next Steps
 
 There are hundreds of elements in the [HTML Living Standard](https://html.spec.whatwg.org/).
 However, you will only need to recognize a handful and understand the basic concept of tagging to decipher most pages or write your own.
 You shouldn't try to learn HTML by reading the standard! 
+
+Learn more by following the [Examples in the next lesson](2-example.md)!
 
 Practice writing basic HTML via tutorials, inspect live pages to learn from the websites you enjoy, and look up elements in reference sources when you need to remember how they work.
 Here are some good options to get started:

@@ -1,5 +1,7 @@
 # The Web
 
+> This section introduces the basics of websites, URLs, and browser tools to explore them.
+
 The content of the world wide web is made up of three parts:
 
 - **HTML** (Hypertext Markup Language) provides the structure and content

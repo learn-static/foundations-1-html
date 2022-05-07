@@ -1,5 +1,7 @@
 # Complete Web Page
 
+> This section provides a walk through of adding CSS and JS to our example HTML to demonstrate how HTML, CSS, and JS work together to create the websites we use.
+
 A web page is usually more than just HTML. 
 The next steps are to add CSS to control the presentation style and JS to provide interactive functionality. 
 
