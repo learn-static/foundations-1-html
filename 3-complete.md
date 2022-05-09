@@ -5,6 +5,9 @@
 A web page is usually more than just HTML. 
 The next steps are to add CSS to control the presentation style and JS to provide interactive functionality. 
 
+Building on the example HTML you set up in the previous lessons, follow the steps below to add CSS and JS to your file.
+This demonstration will introduce the basic concepts and methods to add CSS and JS to a web page so you can understand how they work on the live web.
+
 ------------
 
 ## CSS
@@ -164,3 +167,8 @@ Bootstrap's library takes care of it all if you follow the mark up pattern (basi
 To debug JS, be sure to open your browser's dev tools and look at the **Console**. 
 Any error messages will appear there! 
 You can also use `console.log()` to send debug messages from your script.
+
+## Next Steps
+
+- [W3Schools tutorials](https://www.w3schools.com/html/default.asp) provide interactive learning of basic concepts for HTML, CSS, and JS. W3Schools also provides tutorials and reference resources for other web essentials, as well as the free basic hosting service [Spaces](https://www.w3schools.com/spaces/) that is perfect for learning by building your own simple static site. 
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) provides high quality reference and in-depth learning guides.

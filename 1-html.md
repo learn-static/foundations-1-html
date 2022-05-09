@@ -41,14 +41,9 @@ The web browser interprets that markup and displays "For Example" differently th
 There are hundreds of elements in the [HTML Living Standard](https://html.spec.whatwg.org/).
 However, you will only need to recognize a handful and understand the basic concept of tagging to decipher most pages or write your own.
 You shouldn't try to learn HTML by reading the standard! 
+Practice writing basic HTML via tutorials, inspect live pages to learn from the websites you enjoy, and look up elements in reference sources when you need to remember how they work.
 
 Learn more by following the [Examples in the next lesson](2-example.md)!
-
-Practice writing basic HTML via tutorials, inspect live pages to learn from the websites you enjoy, and look up elements in reference sources when you need to remember how they work.
-Here are some good options to get started:
-
-- [W3Schools HTML tutorial](https://www.w3schools.com/html/default.asp) provides interactive learning of basic concepts. W3Schools also provides tutorials and reference resources for other web essentials, such as CSS and JavaScript, as well as the free basic hosting service [Spaces](https://www.w3schools.com/spaces/) that is perfect for learning. 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) provides high quality reference and in-depth learning guides.
 
 P.S. Keep in mind that on the live web you will see a lot of *badly written* HTML!
 Although HTML is technically a strict standard, web browsers are *very forgiving*. 

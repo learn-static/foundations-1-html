@@ -100,7 +100,7 @@ Your final file might look like:
 </html>
 ```
 
-## More
+## Next Steps
 
 This example walked through basic HTML elements. 
 The next steps are to add CSS to control the presentation style and JS to provide interactive functionality. 

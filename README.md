@@ -25,5 +25,5 @@ It is broken into several parts that can be reviewed separately.
 
 **Further Learning**:
 
-- [W3Schools HTML tutorial](https://www.w3schools.com/html/default.asp) provides interactive learning of basic concepts. W3Schools also provides tutorials and reference resources for other web essentials, such as CSS and JavaScript, as well as the free basic hosting service [Spaces](https://www.w3schools.com/spaces/) that is perfect for learning. 
+- [W3Schools tutorials](https://www.w3schools.com/html/default.asp) provide interactive learning of basic concepts for HTML, CSS, and JS. W3Schools also provides tutorials and reference resources for other web essentials, as well as the free basic hosting service [Spaces](https://www.w3schools.com/spaces/) that is perfect for learning by building your own simple static site. 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) provides high quality reference and in-depth learning guides.
