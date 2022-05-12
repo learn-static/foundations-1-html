@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- This is a comment, meaning it is ignored by the browser. It can be used to communicate to other developers, or remind yourself of details! -->
+
+        <!-- You should declare the character set to avoid display issues, and generally use UTF-8 -->
+        <meta charset="utf-8">
+
+        <title>Title of the web page</title>
+
+        <!-- CSS can be written in a style tag on the page -->
+        <style>
+            p { color: #0d0d08; }
+        </style>
+
+        <!-- or CSS can be loaded from an external file -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        
+    </head>
+    <body>
+
+        <h1>Heading One</h1>
+
+        <p>This is a paragraph. <em>Please note:</em> Indentation is a convention to make HTML code easier to read. 
+            It can help you quickly identify how the elements are nested. However, web browsers do not care! 
+            All <strong>extra white space and line breaks are ignored</strong> when rendering.
+            Learn more at <a href="https://www.w3schools.com/html/default.asp">W3schools HTML tutorial</a>.
+        </p>
+
+        <h2>Complete example stuff</h2>
+
+        <p class="warning">Blue</p>
+        <p id="alert" class="blue">Blue</p>
+        <p>
+            <button type="button" onclick="document.getElementById('alert').innerHTML = 'Hello!'">Inline JS</button>
+        </p>
+
+        <p><button type="button" id="pop">Pop Up</button></p>
+        <script>
+            /* set variables */
+            var btn = document.getElementById('pop');
+            var message = "Hello World!";
+            /* create a function */
+            function myAlert () {
+                alert(message);
+            }
+            /* add event listener to element */
+            btn.addEventListener("click", myAlert);
+        </script>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Click Me!
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">This is a Modal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                A Bootstrap Modal!
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <h2>Heading Two</h2>
+
+        <p>Adding cats is important.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cat_poster_1.jpg/640px-Cat_poster_1.jpg" alt="six different cats">
+
+        <p>Below is an example unordered list:</p>
+
+        <ul>
+            <li>cats</li>
+            <li>dogs</li>
+            <li>muffins</li>
+        </ul>
+        
+        <p>Below is an example ordered list:</p>
+
+        <ol>
+            <li>cats</li>
+            <li>dogs</li>
+            <li>muffins</li>
+        </ol>
+
+        <hr>
+
+        <!-- JavaScript can be added inside a script element on the page -->
+        <script>
+            var cats = 10;
+        </script>
+        
+        <!-- or JavaScript can be loaded from an external file -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+
+    </body>
+</html>
