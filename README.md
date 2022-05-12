@@ -2,6 +2,7 @@
 
 **Module content**: This set of lessons provides an overview of the fundamental building blocks of websites, HTML. 
 It is broken into several parts that can be reviewed separately.
+Access each part of the module using the links in the Description section below.
 
 **Description**: 
 
