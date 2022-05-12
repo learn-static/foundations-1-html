@@ -5,24 +5,34 @@
 The content of the world wide web is made up of three parts:
 
 - **HTML** (Hypertext Markup Language) provides the structure and content
-- **CSS** (Cascading Style Sheets) provides the style
+- **CSS** (Cascading Style Sheets) provides the style and presentation
 - **JS** (JavaScript) provides the interactivity
 
-When you access a website the owner's server sends your computer the code (written in HTML, CSS, and JS) which your browser then renders into a web page that you can view and interact with.
+When you enter a link into your web browser's address bar, it sends a request to a server. 
+The server processes the request and sends your computer the code (written in HTML, CSS, and JS).
+Your browser then renders that code to display a web page that you can view and interact with.
 
 ## View Source 
+
+One fascinating aspect of the web is that everyone must share code to participate.
+You send a request to a server, they send back some code.
+Your browser is not a black box--you can always peek under the hood!
 
 **Right click** on any web page and select "**View page source**" from the context menu to see the code that is being rendered by your browser (shortcut: `Ctrl + U` / `Command + U`). 
 
 Or put `view-source:` in front of any URL in your address bar, for example:
 
-`view-source:https://evanwill.github.io/web-crash-course/`
+`view-source:https://evanwill.github.io/power-browser/`
 
 This is HTML!
 (We'll learn more in the next lesson, but just take a peak now)
 
 On another web page, right click on any element in the page and select "Inspect" or "Inspect Element" from the context menu to open your browser's built in **developer tools**. 
 Dev tools let you look at the code in context, which can be a great way to learn about HTML and to understand how others created the sites you use.
+
+You can use dev tools to manipulate the page you are looking at by applying your own styles that override what the server sends. 
+In the area of your dev tools window that says "element.style", try typing in `display: none;`.
+What happens?
 
 ## Uniform Resource Locators (URLs)
 
